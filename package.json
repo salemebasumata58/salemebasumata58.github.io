@@ -1,4 +1,5 @@
 {
+  "homepage": "https://salemebasumata58.github.io",
   "name": "updatedportfolio",
   "version": "1.0.0",
   "description": "",
@@ -22,6 +23,8 @@
     "typescript": "4.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
