@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import { FaReact, FaHardHat } from "react-icons/fa";
 // import {images} from "../../Assets/images/"
-const img1= require("../../Assets/images/naukri.png")
+const img1= require("../../Assets/images/Optimizely-landing-page-optimization-tool-min.png")
 import {
   SiBlockchaindotcom,
   SiHtml5,
@@ -32,15 +32,15 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://miro.medium.com/max/1400/1*VBW9qLf7M24IG9b69SnWkg.png"
+                  src="https://i.ibb.co/gDxHRYt/Optimizely-landing-page-optimization-tool-min.png"
                   alt="Licious.in"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Naukri.com </h2>
+              <h2>Optimizely Clone </h2>
               <p>
-              A web application to search for various jobs in India A collaborative project which is built by a team of 5 executed in 7 days.
+              Optimizely is known for content, commerce and optimization with the Digital Experience Platform (DXP), helping organizations grow exponentially online. An Indivisual project which is  executed in 6 days.
               </p>
               <div>
                 <FaReact />
@@ -52,7 +52,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://naukri-clone-f36472.netlify.app/"
+                  href="https://inquisitive-tartufo-cd6e83.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -61,7 +61,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/salemebasumata58/Naukri-clone"
+                  href="https://github.com/salemebasumata58/sable-club-7536"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -131,7 +131,7 @@ export const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>Mytheresa Clone</h2>
               <p>
-              This is a clone of "mytheresa.com". "mytheresa.com" is a E-Commerce website for Clothes and Accessories.
+              This is a clone of "mytheresa.com". "mytheresa.com" is a E-Commerce website for Clothes and Accessories.A collaborative project built by a team of 5 executed in 6 days.
               </p>
               <div>
                 <IoLogoJavascript />
