@@ -40,7 +40,7 @@ export const Projects = () => {
             <div className="project_information" data-aos="fade-right">
               <h2>Optimizely Clone </h2>
               <p>
-              Optimizely is known for content, commerce and optimization with the Digital Experience Platform (DXP), helping organizations grow exponentially online. An Indivisual project which is  executed in 6 days.
+              Optimizely is known for content, commerce and optimization with the Digital Experience Platform (DXP), helping organizations grow exponentially online. An Individual project which is  executed in 6 days.
               </p>
               <div>
                 <FaReact />
