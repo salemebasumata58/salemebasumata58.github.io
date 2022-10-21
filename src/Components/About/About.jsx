@@ -22,7 +22,7 @@ export const About = () => {
         <Type />
         <p className="about__desc" data-aos="fade-right">
         An analytical and detail-oriented aspiring Full Stack Web Developer. Capable
-        of writing production ready code using JavaScript, HTML,CSS and ReactJS on the
+        of writing production ready code using JavaScript, HTML, CSS and ReactJS on the
         Frontend and NodeJS, ExpressJS and MongoDB on the Backend to build single
         page applications.
         </p>
