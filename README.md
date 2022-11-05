@@ -1,2 +1,2 @@
 
-Live Demo : https://final-portfolio-j0flgihjf-salemebasumata58.vercel.app
+Live Demo : https://salemebasumata58.github.io/

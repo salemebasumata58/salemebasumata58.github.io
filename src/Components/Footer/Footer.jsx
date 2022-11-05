@@ -13,7 +13,9 @@ export const Footer = () => {
           rel="noreferrer"
           target="_blank"
         >
-          <h3 className="footer">Made with <span style={{color:"red"}}>❤ </span>By Salem-Basumata</h3>
+          <h3 className="footer">
+            Made with <span style={{ color: "red" }}>❤ </span>By Salem-Basumata
+          </h3>
         </a>
       </div>
     </>
