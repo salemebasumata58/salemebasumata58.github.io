@@ -9,12 +9,12 @@ export const Header = () => {
   return (
     <>
       <header className={"header center " + themename}>
+      <Navbar />
         <h3>
           <a href="#home" className="link">
            Salemes58
           </a>
         </h3>
-        <Navbar />
       </header>
     </>
   );

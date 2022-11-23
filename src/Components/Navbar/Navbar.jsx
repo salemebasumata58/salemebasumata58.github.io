@@ -5,6 +5,7 @@ import Brightness2Icon from "@material-ui/icons/Brightness2";
 import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
@@ -25,22 +26,22 @@ export const Navbar = () => {
           className="nav__list"
         >
           <li className="nav__list-item">
-            <a
-              href="#home"
+            <Link
+             to={"home"}
               onClick={() => toggleNavList("#home")}
               className="link link--nav"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav__list-item">
-            <a
-              href="#about"
+            <Link
+              to={"/about"}
               onClick={() => toggleNavList("#about")}
               className="link link--nav"
             >
               About
-            </a>
+            </Link>
           </li>
           <li className="nav__list-item">
             <a
