@@ -1,0 +1,27 @@
+
+
+
+.activeS {
+    text-decoration: none;
+    color: red;
+  }
+  
+  .defaultS {
+    text-decoration: none;
+    color: black;
+  }
+  
+
+  .sticky {
+    background-color: #212038d8 !important;
+    transition: all 0.3s ease-out 0s !important;
+    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+    backdrop-filter: blur(15px) !important;
+  }
+  
+  .navbar {
+    position: fixed !important;
+    transition: all 0.3s ease-out 0s !important;
+    padding: 0.3rem 2rem !important;
+    font-size: 1.2rem !important;
+  }

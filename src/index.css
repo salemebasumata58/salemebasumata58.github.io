@@ -1,51 +1,149 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  border: 0;
-  outline: 0;
-  background-color: inherit;
-  color: inherit;
-  font-family: inherit;
-  font-size: inherit;
-  box-shadow: none;
-  box-sizing: border-box;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-h1,
-h2,
-h3,
-h4 {
-  line-height: 1.2;
-  color: var(--clr-fg-alt);
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-h1 {
-  font-size: 4rem;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+
 }
 
-h2 {
-  font-size: 2rem;
-}
 
-h3 {
-  font-size: 1.5rem;
-}
+.text{
+  color: #302E4C;
+  padding: 5px 20px;
+ }
 
-h4 {
-  font-size: 1.3rem;
-}
 
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-button {
+ .text:hover{
   cursor: pointer;
+   background: #3ee589;
+   color: white;
+   border-radius: 50px;
+   padding: 5px 20px;
+ }
+
+ 
+.projectButton{
+  font-size:x-large;
+  color: #302E4C;
+  padding: 5px 20px;
+ }
+
+
+ .projectButton:hover{
+  cursor: pointer;
+   background: #e53e3e;
+   color: white;
+   border-radius: 25px;
+   padding: 5px 20px;
+ }
+
+ .buttonCSS{
+  background-color: white;
+  font-size:large;
+  color: #302E4C;
+  border-radius: 10px;
+  padding: 5px 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+
+ .buttonCSS:hover{
+  cursor: pointer;
+   background: #e53e3e;
+   color: white;
+   border-radius: 10px;
+   padding: 5px 20px;
+ }
+ 
+ 
+ 
+
+.activeS {
+  background: #e53e3e;
+  color: white;
+  border-radius: 50px;
+  padding: 5px 20px;
 }
+
+.defaultS {
+  padding: 5px 20px;
+}
+
+
+::-webkit-scrollbar{
+ width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #EBF8FF;
+ }
+
+
+ ::-webkit-scrollbar-thumb{
+ background: #e53e3e;
+
+
+ background-clip: content-box ;
+ }
+
+/* ::-webkit-scrollbar{
+  width: 1rem;
+ }
+ 
+ ::-webkit-scrollbar-track{
+   background-color: #e53e3e;
+  }
+ 
+ 
+  ::-webkit-scrollbar-thumb{
+  background: #fff;
+  border: 5px solid transparent;
+  border-radius: 50px ;
+  background-clip: content-box ;
+  } */
+  
+  ::-webkit-scrollbar{
+
+    width:0.7rem
+  
+  }
+  
+  
+  
+  ::-webkit-scrollbar-track{
+  
+    background-color: white;
+  
+   
+  
+  }
+  
+  
+  
+  ::-webkit-scrollbar-thumb{
+  
+    background: crimson;
+  
+    border: 3px solid transparent;
+  
+    background-clip: content-box;
+  
+    border-radius: 15px;
+  
+    /* height: 10%; */
+  
+  }
