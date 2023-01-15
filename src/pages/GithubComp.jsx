@@ -31,6 +31,8 @@ const GithubComp = () => {
         maxW="1400px"
       >
         <Github />
+        <br />
+        <br />
         <VStack gap={5}>
           <Tilt>
             <Stack textAlign="center" alignContent="center" data-aos="zoom-in">
@@ -50,24 +52,27 @@ const GithubComp = () => {
             spacing={5}
             h={"50vh"}
             // p={2}
-
+            // border={"1px solid purple"}
             alignItems={"center"}
             gap={5}
             flexDirection={{ base: "column", lg: "row" }}
           >
-            <Box h={"100%"}>
+            <Box
+              marginTop={{ base: "-80px", lg: "5px" }}
+              h={{ base: "20vh", lg: "50vh" }}
+            >
               <Image
-                h={"45vh"}
-                align="center"
+                h={"40vh"}
+                // align="center"
                 src="https://github-readme-stats.vercel.app/api?username=salemebasumata58&show_icons=true&locale=en"
                 alt="salemebasumata58"
               />
             </Box>
-            <Box h={"100%"}>
+            <Box h={{ base: "25vh", lg: "50vh" }}>
               <Image
-                h={"45vh"}
+                h={"40vh"}
                 marginTop="-10px"
-                align="center"
+                // align=""
                 src="https://github-readme-streak-stats.herokuapp.com/?user=salemebasumata58&"
                 alt="salemebasumata58"
               />

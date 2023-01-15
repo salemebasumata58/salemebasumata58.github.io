@@ -24,16 +24,18 @@ const About = () => {
   return (
     <Stack
       boxShadow="xl"
-      h={{ base: "120vh", sm: "130vh", md: "120vh", lg: "140vh" }}
+      
+      h={{ base: "120vh", sm: "150vh", md: "80vh", lg: "130vh" }}
       rounded="md"
       id="about"
       p={{ base: 8, sm: 8 }}
       w="full"
-      bg="#80bdff"
+      margin={"auto"}
+      bg="white"
     >
       {" "}
       // rgb(235, 248, 255) // FAF5FF // FFF5F5 // #FFF5F7
-      <Stack
+      <Stack 
         justifyContent={{ base: "space-evenly", sm: "space-around" }}
         alignItems="center"
         p={{ base: 0, sm: 8 }}
@@ -43,9 +45,10 @@ const About = () => {
         maxW="1400px"
         // h={{base:"85vh", sm:"80vh"  ,md:"90vh"}}
       >
-        <Tilt>
-          <Stack data-aos="zoom-in">
+        <Tilt  marginBottom={{base:"50px"}} >
+          <Stack  marginBottom={{base:"20px", sm:"75px"}} data-aos="zoom-in" >
             <Text
+            
               marginTop={1}
               fontSize={{ base: "3xl", sm: "3xl", md: "5xl" }}
               fontWeight="semibold"
@@ -56,33 +59,37 @@ const About = () => {
             </Text>
           </Stack>
         </Tilt>
-        <br />
+      
+        
         <Stack
           justifyContent={{ base: "space-evenly", sm: "space-around" }}
           alignItems="center"
           spacing={5}
-          alignSelf="center"
-          justify="center"
+          // border={"1px solid red"}
+          // alignSelf="center"
+          // justify="center"
           w="full"
           maxW="1400px"
-          h={{ base: "85vh", sm: "80vh", md: "90vh" }}
+          h={{ base: "65vh", sm: "60vh", md: "40vh", lg: "80vh" }}
           flexFlow={{ base: "column", md: "row" }}
           flexDirection={{ base: "column", xl: "row" }}
         >
           <VStack
             data-aos="zoom-in"
-            marginTop={{ base: "50px", sm: "", md: 0 }}
+            marginTop={{ base: "100px", sm: "", md: 0 }}
           >
             <Tilt>
               <Image
                 boxShadow="2xl"
-                borderRadius="full"
-                w={{ base: "180px", md: "300px", lg: "400px" }}
-                src="https://avatars.githubusercontent.com/u/97457740?v=4"
+                rounded="md"
+                w={{ base: "400px", md: "300px", lg: "400px" }}
+                h={{ base: 300, md: 300, lg: 420 }}
+                src="https://inizsoft.com/wp-content/uploads/2021/02/webdev.gif"
               />
             </Tilt>{" "}
           </VStack>
-
+          <br />
+          
           <VStack
             boxShadow="2xl"
             rounded="md"

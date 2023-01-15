@@ -123,14 +123,14 @@ const Project = () => {
 
   return (
     <Stack
-    boxShadow="xl"
-    // p="6"
-    rounded="md"
+      boxShadow="xl"
+      // p="6"
+      rounded="md"
       position="relative"
       id="projects"
       p={{ base: 0, sm: 8 }}
       w="full"
-      bg="linear-gradient(3deg, #009999 0%, rgba(175,188,255,0) 100%)"
+      bg="lightGray"
     >
       // #EBF8FF // FAF5FF // FFF5F5 // #FFF5F7 h="90vh"
       <Stack
@@ -205,7 +205,7 @@ const Project = () => {
               // p="6"
               // border={"1px solid red"}
               rounded="md"
-              maxW={{base:"320px", sm:"320px",  md:"340px"}}
+              maxW={{ base: "320px", sm: "320px", md: "340px" }}
               borderRadius={5}
               bg="white"
               p={4}
@@ -232,12 +232,14 @@ const Project = () => {
                   fontSize={{ base: "13px", md: "sm" }}
                   marginTop={50}
                   fontWeight="medium"
+                  color= "#ed0505"
+
                 >
                   <Highlight
                     query="Teck Stack"
                     styles={{
                       fontSize: "md",
-                      color: "#e53e3e",
+                      color: "#ed0505",
                       fontWeight: "semibold",
                     }}
                   >

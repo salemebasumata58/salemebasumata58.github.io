@@ -29,12 +29,20 @@ code {
 
  .text:hover{
   cursor: pointer;
-   background: #3ee589;
+   background: rgb(49,130,206);
    color: white;
    border-radius: 50px;
    padding: 5px 20px;
  }
-
+ .logoLink{
+  margin-top: 14px;
+ }
+.logoLink:hover{
+  cursor: pointer;
+  padding: 5px 2px;
+  border-radius: 30px;
+  background: rgb(49,130,206);
+}
  
 .projectButton{
   font-size:x-large;

@@ -36,8 +36,9 @@ const NavSmall = () => {
     <HStack
       display={{ base: "-webkit-inline-flex", md: "none" }}
       bg="rgb(102,0,174)" // FAF5FF // FFF5F5 // #FFF5F7 #EBF8FF
-      style={{ position: "fixed", bottom: 20, left: 10, right: 10 }}
+      style={{ position: "fixed", bottom: "-202px", left: 10, right: 10 }}
       alignSelf="center"
+      marginBottom={{base:"250px", sm:"200px", md:"100px"}}
       p="6px 5%"
       borderRadius={50}
       w="95%"

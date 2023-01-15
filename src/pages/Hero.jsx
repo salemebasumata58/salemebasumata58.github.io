@@ -34,18 +34,18 @@ const Hero = () => {
 
   return (
     <Stack
-    border={"1px solid yellow"}
-    boxShadow='2xl' rounded='md'
-
+      border={"1px solid yellow"}
+      boxShadow="2xl"
+      rounded="md"
       position="relative"
       id="home"
       p={{ base: 10, sm: 10, lg: 20 }}
       w="full"
-      bg="#bf6bfb"
+      bg="white"
     >
       <Stack
         data-aos="zoom-in"
-        justifyContent={{ base: "space-around", sm: "space-around" }}
+        justifyContent={{ base: "space-between", sm: "space-between" }}
         alignItems="center"
         p={{ base: 0, sm: 8 }}
         alignSelf="center"
@@ -59,22 +59,23 @@ const Hero = () => {
         <Flex
           marginTop={{ base: "50px", sm: "50px" }}
           // border={"1px solid red"}
-          w={{ base: "90%", sm: "500px", md: "600px" }}
+          w={{ base: "97%", sm: "500px", md: "550px" }}
           flexDirection="column"
           h="fit-content"
           alignItems={{ base: "center", md: "flex-start" }}
           p={5}
-          boxShadow='2xl' rounded='md'
+          boxShadow="2xl"
+          rounded="md"
           spacing={{ base: 1, md: 5 }}
         >
           <Text fontSize={{ base: "18px", sm: "2xl" }} fontWeight="m">
-          Hey👋...I'm
+            Hey👋...I'm
           </Text>
           <Tilt>
             <Text
               fontWeight="semibold"
               color="#302E4C"
-              fontSize={{ base: "4xl", sm: "4xl", md: "4xl", lg: "6xl" }}
+              fontSize={{ base: "2xl", sm: "2xl", md: "3xl", lg: "5xl" }}
             >
               Salem Basumata
             </Text>
@@ -83,7 +84,7 @@ const Hero = () => {
             fontSize={{ base: "18px", sm: "2xl", md: "xl", lg: "3xl" }}
             fontWeight="semibold"
           >
-            <span style={{ color: "lightcyan", fontWeight: "bold" }}>
+            <span style={{ color: "red", fontWeight: "bold" }}>
               {/* Style will be inherited from the parent element */}
               <Typewriter
                 words={[
@@ -103,13 +104,12 @@ const Hero = () => {
             </span>
           </Text>
           <br />
-          <Text  fontSize={{ base: "sm", sm: "sm", md: "xl", lg: "xl" }}>An aspiring Full Stack Web Developer. Capable
-        of writing production ready code using MERN stacks to build single
-        page applications.</Text>
+          <Text fontSize={{ base: "sm", sm: "sm", md: "xl", lg: "xl" }}>
+            An aspiring Full Stack Web Developer. Capable of writing production
+            ready code using MERN stacks to build single page applications.
+          </Text>
 
           <HStack alignItems="center">
-           
-
             <a href={resume} download>
               <IconButton
                 marginTop="3"
@@ -120,7 +120,6 @@ const Hero = () => {
                 colorScheme="gray"
                 icon={<IoMdDownload />}
               />
-              
             </a>
             <a
               href={
@@ -136,7 +135,7 @@ const Hero = () => {
                 colorScheme={"gray"}
               >
                 {" "}
-              See My Resume
+                See My Resume
               </Button>
             </a>
           </HStack>
@@ -146,20 +145,22 @@ const Hero = () => {
           boxSize={{ base: "350px", sm: "400px", md: "450px" }}
           // border={"1px solid red"}
           // h="fit-content"
-          alignItems="flex-start"
+          alignItems={{ base: "center", md: "flex-start" }}
           marginTop={{ base: "35px", sm: "50px", lg: "60px" }}
-          py={{ base: 2, md: 12, lg:8 }}
-          px={{ base: 2, md: 2 ,lg:1}}
+          py={{ base: 2, md: 12, lg: 8 }}
+          px={{ base: 2, md: 2, lg: 1 }}
         >
           <Tilt>
             <Image
               data-aos="zoom-in"
+              marginTop={{ base: 5, md: 0, lg: 0 }}
               // border={"1px solid gray"}
-              boxShadow='2xl'  rounded='md'
-              
-              w={{base:"500px",md:"600px",lg:"800px"}}
-              h={{base:300,md:370,lg:420}}
-              src="https://inizsoft.com/wp-content/uploads/2021/02/webdev.gif"
+              boxShadow="2xl"
+              rounded="md"
+              borderRadius={"full"}
+              w={{ base: "300px", md: "300px", lg: "400px" }}
+              h={{ base: "300px", md: "300px", lg: "420px" }}
+              src="https://avatars.githubusercontent.com/u/97457740?v=4"
             />
           </Tilt>
         </VStack>

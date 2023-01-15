@@ -70,8 +70,6 @@ const skillsD = [
   { img: Postman, name: "Postman", type: "back" },
 
   { img: Photoshop, name: "Photoshop", type: "graphic" },
-  
-  
 ];
 
 const buttonData = [
@@ -108,9 +106,10 @@ const Skills = () => {
 
   return (
     <Stack
-    boxShadow='2xl' rounded='md'
+      boxShadow="2xl"
+      rounded="md"
       position="relative"
-      bg="linear-gradient(3deg, #08849f 0%, rgba(175,188,255,0) 100%)"
+      bg="#ffffff"
       id="skills"
       p={{ base: 0, sm: 8 }}
       w="full"
@@ -176,10 +175,10 @@ const Skills = () => {
           {data?.map((el) => (
             <VStack
               data-aos="zoom-in"
+              // border={"1px solid black"}
               justifyContent="space-around"
-              bg="linear-gradient(3deg, #9e0ad895
-              0%, rgba(175,188,255,0) 70%)"
-              w={{ base: "80px", sm: "100px", lg:"130px" }}
+              box-shadow= "rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px"
+              w={{ base: "80px", sm: "100px", lg: "130px" }}
               p={3}
               borderRadius={5}
               _hover={{

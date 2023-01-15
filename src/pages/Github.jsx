@@ -25,12 +25,12 @@ const selectLastHalfYear = contributions => {
 
 function Github() {
   return (
-    <VStack h="50vh" justifyContent="center" spacing={5} margin="auto" alignSelf="center"
-     w={{base:"80%"}}>
+    <VStack h="50vh"  justifyContent="center" spacing={5} margin="auto" alignSelf="center"
+     w={{base:"90%"}}>
       <Stack textAlign="center" alignContent="center" data-aos="fade-up" > 
          <Text 
            
-            fontSize={{base:"xl",sm:"4xl" ,md:"4xl"}}
+            fontSize={{base:"xl",sm:"4xl" ,md:"5xl"}}
             fontWeight="semibold" ><Highlight query='CALENDER' 
             styles={{ color: '#e58c1f' }}>
             GITHUB CONTRIBUTION CALENDER
@@ -38,10 +38,10 @@ function Github() {
 
            </Highlight>
            </Text>
-           <Text>Here find my github contribution over last months</Text>
+           <Text fontSize={"lg"}>Here find my github contribution over last months</Text>
       </Stack>
       <Tilt>
-      <Stack display={{base:"none", md:"block"}} data-aos="fade-up">
+      <Stack display={{base:"none", md:"block"}} data-aos="fade-up" mixW={"100px"}>
     
 
         <GitHubCalendar
@@ -62,7 +62,7 @@ function Github() {
 
       <GitHubCalendar
        
-       username="suFi7867"
+       username="salemebasumata58"
        blockSize={25}
        blockRadius={5}
        blockMargin={15}
